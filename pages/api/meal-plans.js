@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import { Configuration, OpenAIApi } from "openai"
-import Ingredients from'../Ingredients.js'
+import Ingredients from'./Ingredients.js'
 
 const openai = new OpenAIApi(
   new Configuration({ apiKey: process.env.OPEN_AI_API_KEY })
